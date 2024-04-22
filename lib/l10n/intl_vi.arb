@@ -1,0 +1,12 @@
+{
+  "@@locale": "vi",
+  "login": "Đăng Nhập",
+  "username": "Tên đăng nhập",
+  "password": "Mật khẩu",
+  "home": "Trang chủ",
+  "welcome": "Chào mừng bạn trở lại",
+  "maintenance_message": "Hệ thống đang xảy ra lỗi, Xin vui lòng đợi trong ít phút.",
+  "flutter_copyright": "Đây là bản base flutter đang trong quá trình hoàn thiện",
+  "choose_theme": "Chọn giao diện",
+  "choose_language": "Chọn ngôn ngữ"
+}
