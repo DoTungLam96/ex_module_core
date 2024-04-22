@@ -28,3 +28,4 @@ export 'network/env/uatEnv.dart';
 export 'network/network.dart';
 export 'core/usecase.dart';
 export 'package:get_it/get_it.dart';
+export 'package:dio/dio.dart';
