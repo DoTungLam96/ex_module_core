@@ -29,3 +29,4 @@ export 'network/network.dart';
 export 'core/usecase.dart';
 export 'package:get_it/get_it.dart';
 export 'package:dio/dio.dart';
+export 'package:retrofit/retrofit.dart' hide Headers;
