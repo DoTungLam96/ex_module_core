@@ -31,3 +31,4 @@ export 'package:get_it/get_it.dart';
 export 'package:dio/dio.dart';
 export 'package:retrofit/retrofit.dart' hide Headers;
 export 'package:flutter_bloc/flutter_bloc.dart';
+export 'package:freezed_annotation/freezed_annotation.dart';
