@@ -2,6 +2,9 @@ const String KEY_GENERATE_UUID = "KEY_GENERATE_UUID";
 
 const String kTheme = "theme";
 const String kLanguage = "language";
+
+const String kDataCaching = 'kDataCaching';
+const String kExpiration = 'kExpiration';
 const List<String> IGNORE_AUTH_401 = [
   "/authentication/api/v1/refresh-token",
   "/users/auth/me"
