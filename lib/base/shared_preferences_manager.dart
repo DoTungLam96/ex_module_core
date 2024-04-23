@@ -56,7 +56,7 @@ class SharedPreferencesManager {
       String? expirationTimeStr = sharedPreferences.getString(kExpiration);
       if (data == null || expirationTimeStr == null) {
         print('No data or expiration time found in SharedPreferences.');
-        return null; // No data or expiration time found.
+        return null;
       }
 
       DateTime expirationTime = DateTime.parse(expirationTimeStr);
@@ -65,7 +65,6 @@ class SharedPreferencesManager {
         // The data has not expired.
         return data;
       } else {
-        // Data has expired. Remove it from SharedPreferences.
         await sharedPreferences.remove(kDataCaching);
         await sharedPreferences.remove(kExpiration);
         print('Data has expired. Removed from SharedPreferences.');

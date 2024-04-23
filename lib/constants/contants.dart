@@ -5,6 +5,7 @@ const String kLanguage = "language";
 
 const String kDataCaching = 'kDataCaching';
 const String kExpiration = 'kExpiration';
+
 const List<String> IGNORE_AUTH_401 = [
   "/authentication/api/v1/refresh-token",
   "/users/auth/me"
@@ -25,4 +26,6 @@ class Constants {
   Constants._();
   static const loginScreen = '/login/loginScreen';
   static const homePage = '/home/homePage';
+  static const userTableName = 'user_table';
+  static const databaseName = 'app_database.db';
 }
