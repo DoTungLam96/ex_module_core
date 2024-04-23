@@ -139,6 +139,26 @@ class ILanguage {
       args: [],
     );
   }
+
+  /// `Tên đăng nhập không được để trống`
+  String get username_not_empty {
+    return Intl.message(
+      'Tên đăng nhập không được để trống',
+      name: 'username_not_empty',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mật khẩu không được để trống`
+  String get password_not_empty {
+    return Intl.message(
+      'Mật khẩu không được để trống',
+      name: 'password_not_empty',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<ILanguage> {

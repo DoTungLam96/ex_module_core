@@ -32,7 +32,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "maintenance_message": MessageLookupByLibrary.simpleMessage(
             "Error in the system processing. Please contact admin for support!"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "password_not_empty":
+            MessageLookupByLibrary.simpleMessage("Password is not empty"),
         "username": MessageLookupByLibrary.simpleMessage("Username"),
+        "username_not_empty":
+            MessageLookupByLibrary.simpleMessage("Username is not empty"),
         "welcome": MessageLookupByLibrary.simpleMessage("Welcome back")
       };
 }

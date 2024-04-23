@@ -8,5 +8,7 @@
   "maintenance_message": "Error in the system processing. Please contact admin for support!",
   "flutter_copyright": "This is base Flutter demo.",
   "choose_theme": "Choose theme",
-  "choose_language": "Choose language"
+  "choose_language": "Choose language",
+  "username_not_empty": "Username is not empty",
+  "password_not_empty": "Password is not empty"
 }

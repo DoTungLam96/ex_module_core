@@ -32,7 +32,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "maintenance_message": MessageLookupByLibrary.simpleMessage(
             "Hệ thống đang xảy ra lỗi, Xin vui lòng đợi trong ít phút."),
         "password": MessageLookupByLibrary.simpleMessage("Mật khẩu"),
+        "password_not_empty": MessageLookupByLibrary.simpleMessage(
+            "Mật khẩu không được để trống"),
         "username": MessageLookupByLibrary.simpleMessage("Tên đăng nhập"),
+        "username_not_empty": MessageLookupByLibrary.simpleMessage(
+            "Tên đăng nhập không được để trống"),
         "welcome": MessageLookupByLibrary.simpleMessage("Chào mừng bạn trở lại")
       };
 }

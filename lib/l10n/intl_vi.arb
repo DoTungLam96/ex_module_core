@@ -8,5 +8,7 @@
   "maintenance_message": "Hệ thống đang xảy ra lỗi, Xin vui lòng đợi trong ít phút.",
   "flutter_copyright": "Đây là bản base flutter đang trong quá trình hoàn thiện",
   "choose_theme": "Chọn giao diện",
-  "choose_language": "Chọn ngôn ngữ"
+  "choose_language": "Chọn ngôn ngữ",
+  "username_not_empty": "Tên đăng nhập không được để trống",
+  "password_not_empty": "Mật khẩu không được để trống"
 }
