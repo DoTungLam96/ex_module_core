@@ -33,6 +33,6 @@ class MessageLookup extends MessageLookupByLibrary {
             "Error in the system processing. Please contact admin for support!"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "username": MessageLookupByLibrary.simpleMessage("Username"),
-        "welcome": MessageLookupByLibrary.simpleMessage("Welcome, ")
+        "welcome": MessageLookupByLibrary.simpleMessage("Welcome back")
       };
 }

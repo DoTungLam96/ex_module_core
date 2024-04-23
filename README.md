@@ -1,15 +1,10 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# base_flutter
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+- Command auto generate model, assets,... => flutter packages pub run build_runner build --delete-conflicting-outputs
+- Command auto generate language => flutter pub run intl_utils:generate
+- Git submodule: git submodule update --init (Init packages from project)
+  git submodule update --remote (get lastest code all branch)
+  git submodule foreach git checkout develop (all branches checkout to Develop )
 
 TODO: Put a short description of the package here that helps potential users
 know whether this package might be useful for them.
